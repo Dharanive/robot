@@ -1,0 +1,190 @@
+*{
+    background-color: rgb(255, 255, 255);
+}
+.body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 180%;
+    
+    
+    
+  }
+  
+  div div {
+    background: rgb(37, 153, 43);
+    position: relative;
+  }
+  
+  .android {
+    height: 400px;
+    width: 340px;
+    
+  }
+  
+  .head {
+    width: 200px;
+    height: 100px;
+    top: 32px;
+    border-radius: 220px 220px 0 0;
+    margin-left: 180%;
+    margin-top: 50%;
+    background-color:rgb(222, 21, 215);
+    transform: rotate(0deg);
+    animation: head 2s infinite
+    
+    
+    
+    
+  }
+  .android :hover{
+    border-color:rgb(222, 21, 215);
+    transform: skew(-20deg);
+    
+    
+
+  }
+  @keyframes head{
+    50%{
+        transform: translate(50px);
+    }
+    20%{
+        transform: rotate(20px);
+    }
+    0%{
+        transform: rotate(0deg)
+    }
+    50%
+    {
+        transform: rotate(-10deg);
+    }
+    0%
+    {
+        transform: rotate(10deg);
+    }
+  }
+  
+  .left_eye,
+  .right_eye {
+    background: rgb(255, 255, 255);
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 42px;
+    border-radius: 100%;
+    animation: dv 2s infinite;
+    
+  }
+  @keyframes dv{
+    0%{
+        transform: scale(2);
+    }
+  }
+  
+  .left_eye {
+    left: 50px;
+  }
+  
+  
+  .right_eye {
+    right: 50px;
+  }
+  
+  
+  .body {
+    width: 200px;
+    height: 184px;
+    top: 42px;
+    border-radius: 0 0 25px 25px;
+    background-color:rgb(255, 0, 238);
+    
+
+    transform: rotate(0deg);
+    animation: body 2s infinite
+    
+    
+  }
+  .body:hover{
+    background-color:rgb(255, 0, 238);
+    transform: skew(20deg);
+  }
+  @keyframes body{
+    50%{
+        transform: translate(50px);
+    }0%
+    {
+        transform: rotate(20deg);
+    }
+  
+
+    
+    
+  }
+  
+  
+  .left_arm,
+  .right_arm,
+  .left_leg,
+  .right_leg {
+    width: 50px;
+    position: absolute;
+    background-color: black;
+    
+  }
+  
+  .left_arm,
+  .right_arm {
+    height: 150px;
+    border-radius: 25px;
+    background-color: black;
+    animation: fd 2s infinite;
+ 
+  }
+  @keyframes fd
+  {
+    0%{transform: rotate(0);}
+    50%{transform: rotate(70deg);}
+    100%{transform: rotate(-70deg0);}
+  }
+  
+  .left_leg,
+  .right_leg {
+    height: 100px;
+    top: 192px;
+    border-radius: 0 0 25px 25px;
+    animation: ed 2s infinite;
+    
+  }
+  @keyframes ed
+  {
+    0%{transform: rotate(0);}
+    50%{transform: rotate(30deg);}
+    100%{transform: rotate(-30deg0);}
+  }
+ 
+  
+  .left_arm {
+    left: -58px;
+
+    
+  }
+
+ 
+
+  
+  .right_arm {
+    right: -58px;
+  }
+  
+  
+  .left_leg {
+    left: 40px;
+  }
+  
+  .right_leg {
+    right: 40px;
+  }
+  
+ 
+  
